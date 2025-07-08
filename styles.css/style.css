@@ -1,0 +1,152 @@
+
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*header*/
+.header{
+    background-image: url(/img/developer.png), url(/img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.sec-bg{
+    background-color: #fff8f3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* bnr styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 235px;
+}
+.bnr-cnt{
+    max-width: 580px;
+}
+.bnr-grt{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bnr-tit{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.bnr-img{
+    width: 580px;
+
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+} 
+.section-drc{
+    font-size: 18px;
+    color: #181818;
+}
+.text-center{
+    text-align: center;
+}
+/*main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*about*/ 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*resume*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-dec{
+    color:rgba(117, 117, 117, 1) ;
+}
+.experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.btn-dnl{
+    align-items: center;
+    background-color: #FD6E0A;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+
+}
