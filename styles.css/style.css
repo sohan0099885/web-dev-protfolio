@@ -120,6 +120,9 @@ main section{
     box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 /*resume*/
+.resume{
+    justify-content: center;
+}
 .resume-container{
     display: flex;
     gap: 24px;
@@ -138,7 +141,7 @@ main section{
     margin: 30px 5px;
 }
 .btn-dnl{
-    align-items: center;
+    
     background-color: #FD6E0A;
     font-weight: 600;
     color: white;
@@ -147,6 +150,27 @@ main section{
     padding: 18px 35px;
     border-radius: 5px;
     margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    }
+    .btn-dnl{
+        text-align: center;
+        
 
-}
+    }
+    .main{
+        display: flex;
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .a{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
